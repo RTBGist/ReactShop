@@ -1,9 +1,9 @@
 import React from 'react';
-import './Counter.sass';
+import classes from './Counter.module.scss';
 
 const Counter = () => {
 	return (
-			<div>
+			<div className={classes.counter}>
 				123123
 			</div>
 	);
