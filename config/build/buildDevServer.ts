@@ -5,5 +5,6 @@ export function buildDevServer(htmlPath : string, port: number): DevServerConfig
 		static: htmlPath,
 		port,
 		open: true,
+		historyApiFallback: true,
 	}
-};
+}
