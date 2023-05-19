@@ -11,6 +11,7 @@
     "buffer-from": "^1.1.2",
     "caniuse-lite": "^1.0.30001457",
     "chrome-trace-event": "^1.0.3",
+    "classnames": "^2.3.2",
     "clone-deep": "^4.0.1",
     "colorette": "^2.0.19",
     "commander": "^2.20.3",
