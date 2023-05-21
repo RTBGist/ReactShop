@@ -9,6 +9,7 @@ const config = (env: BuildEnv): webpack.Configuration => {
 		html: path.resolve(__dirname, 'public', 'index.html'),
 		entry: path.resolve(__dirname, 'src', 'index.tsx'),
 		build: path.resolve(__dirname, 'dist'),
+		src: path.resolve(__dirname, 'src'),
 	}
 	const PORT = env.port || 3000;
 	const mode = env.mode || 'development';
