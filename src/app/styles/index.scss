@@ -17,3 +17,12 @@ body {
   color: var(--primary-color);
   background: var(--bg-color);
 }
+
+.content-flex {
+  display: flex;
+}
+
+.content-page {
+  flex: auto;
+  padding: 20px;
+}

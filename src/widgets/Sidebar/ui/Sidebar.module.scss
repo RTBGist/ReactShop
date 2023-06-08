@@ -1,0 +1,17 @@
+.sidebar {
+  width: var(--sidebar-width);
+  height: calc(100vh - var(--navbar-height));
+  background: var(--inverted-bg-color);
+  position: relative;
+  transition: all .3s ease;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+}
+
+.themeSwitcher {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}

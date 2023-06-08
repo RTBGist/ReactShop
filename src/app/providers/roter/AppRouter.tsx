@@ -4,7 +4,6 @@ import {routeConfig} from "shared/routeConfig/routeConfig";
 
 const AppRouter = () => {
 
-	console.log()
 	return (
 			<Suspense fallback={<div>Загрузка...</div>}>
 				<Routes>
